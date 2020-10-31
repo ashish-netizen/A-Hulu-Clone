@@ -1,0 +1,33 @@
+.VideoCard{
+    color: #2ecc71;
+    width: 400px;
+    height: 300px;
+    /* padding: 40px; */
+    margin-top: 30px;
+    transition: transform 200ms ease-in-out;
+    margin-bottom: 100px;
+    margin-left: 15px;
+}
+
+.VideoCard:hover{
+    transform: scale(1.04);
+}
+
+img{
+    height: 250px;
+    object-fit: contain;
+    width: 400px;
+}
+
+.VideoCard>h3, p{
+    margin-left: 10px;
+}
+
+.Stats{
+    display: none;
+}
+
+.VideoCard:hover>.Stats{
+    display: inline;
+}
+
